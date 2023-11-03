@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    align-items: center;
+    font-family: "Lora", serif;
+    font-size: italic;
+  }
+
+  .nav-link {
+    color: $color_black;
+    &:hover {
+        color: $color_gray;
+      }
+  }
+  
+  .logo-1 {
+    color: $color_black;
+    &:hover {
+      color: $color_gray;
+    }
+  }
+  
+  .logo {
+    text-align: center;
+    transition: transform .5s;
+  
+    &:hover{
+      opacity: .6;
+      transform: scale(1.1);
+    }
+  }
+  
+  .logo-titulo {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  .logo-slogan {
+    font-size: 1rem;
+  }  

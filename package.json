@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-puro-sabor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianmp09/proyecto-puro-sabor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianmp09/proyecto-puro-sabor/issues"
+  },
+  "homepage": "https://github.com/julianmp09/proyecto-puro-sabor#readme"
+}

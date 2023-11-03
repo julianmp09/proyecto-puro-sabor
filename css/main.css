@@ -1,0 +1,1696 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: gray;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  align-items: center;
+  font-family: "Lora", serif;
+  font-size: italic;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: gray;
+}
+
+.logo-1 {
+  color: black;
+}
+.logo-1:hover {
+  color: gray;
+}
+
+.logo {
+  text-align: center;
+  transition: transform 0.5s;
+}
+.logo:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.logo-titulo {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.logo-slogan {
+  font-size: 1rem;
+}
+
+/* Comienzo de pagina index */
+.hero {
+  background-image: url("../img/pexels-pixabay-511763.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 8rem;
+  color: white;
+  height: 650px;
+}
+.hero .hero-title {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero .hero-text-1 {
+  font-size: 60px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: italic;
+}
+.hero .hero-text-2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: "Lora", serif;
+  font-style: italic;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Lora", serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 25px;
+  opacity: 0.9;
+}
+.btn:hover {
+  color: black;
+}
+
+.biografia {
+  background-color: #281d19;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.biografia-container {
+  max-width: 100%;
+  padding-block: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.biografia-2 {
+  border-left: 1px solid white;
+}
+
+.galeria {
+  padding-block: 3rem;
+}
+
+.galeria-container {
+  display: flex;
+  max-width: 1000px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.galeria-foto {
+  width: 100%;
+}
+
+.galeria-foto img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 3px solid;
+  transition: transform 0.5s;
+}
+.galeria-foto img:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+
+.galeria-title {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: italic;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home_grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.personas {
+  padding: 1.5rem;
+  grid-column: 2/7;
+  grid-row: 5/8;
+}
+
+.mensaje {
+  background-color: #cbc3be;
+  color: black;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.mensaje .mensaje h2 {
+  color: black;
+}
+.mensaje .mensaje p {
+  color: black;
+  padding-bottom: 15px;
+}
+
+.fondo {
+  height: 100%;
+  background-color: #281d19;
+  grid-column: 1/11;
+  grid-row: 1/8;
+}
+
+.pie_de_pagina_inicial {
+  background-color: #cbc3be;
+}
+
+.pie_de_pagina_left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pie_de_pagina_left p {
+  margin: 0;
+}
+
+.pie_de_pagina_right {
+  display: flex;
+  gap: 2rem;
+}
+
+.pie_de_pagina_right a {
+  color: #281d19;
+}
+
+.pie_de_pagina_right a:hover {
+  color: gray;
+}
+
+.pie_de_pagina_right a i {
+  font-size: 2rem;
+}
+
+/* Fin de pagina index */
+/* Inicio de pagina comida internacional */
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+  max-width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.recipe {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-family: "Lato", sans-serif;
+  padding: 1.5rem 1rem;
+  background-color: #281d19;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.bio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.p-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.recipe-2 {
+  grid-column: 2/3;
+  font-family: "Lato", sans-serif;
+  background-color: #281d19;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.bio-text-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  border-bottom: 1px solid white;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+  padding: 2.5rem;
+  font-size: 2rem;
+  font-style: italic;
+  gap: 1rem;
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "recipe-3 beicon" "recipe-4 recipe-4";
+  background-color: #281d19;
+  color: white;
+}
+
+.beicon {
+  grid-area: beicon;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.recipe-3 {
+  grid-area: recipe-3;
+}
+
+.p-text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  padding: 2rem;
+}
+
+.recipe-4 {
+  grid-area: recipe-4;
+}
+
+.p-text-2 {
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.info {
+  text-decoration: none;
+  color: white;
+}
+
+/* Fin de pagina comida internacional */
+/* Comienzo de pagina comida nacional */
+.hero_2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "empanada                    empanada2     container_receta_nacional";
+}
+.hero_2 .empanada {
+  width: 100%;
+  aspect-ratio: 1/1;
+  grid-area: empanada;
+}
+.hero_2 .empanada_2 {
+  grid-area: empanada2;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.hero_2 .empanada_3 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  grid-area: empanada2;
+}
+.hero_2 .img_1 {
+  background-color: #281d19;
+}
+.hero_2 .img_text_1 {
+  color: white;
+  padding-top: 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+.hero_2 .img_text_2 {
+  background-color: #281d19;
+  color: white;
+  padding: 3.5rem;
+  text-align: center;
+  height: 100%;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+.hero_2 .container_receta_nacional .receta_3_title {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  border-bottom: 1px solid white;
+  padding: 1rem 0.5rem;
+}
+.hero_2 .container_receta_nacional ul {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  padding: 1rem 0.5rem;
+}
+.hero_2 .container_receta_nacional ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.hero_2 .container_receta_nacional .receta_3_title_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-family: "Lato", sans-serif;
+  padding: 0.5rem 0.5rem;
+}
+.hero_2 .descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 1.4rem;
+  padding: 1.5rem 1rem;
+}
+.hero_2 .container_receta_nacional {
+  grid-area: container_receta_nacional;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 20px;
+  background-color: #281d19;
+  color: white;
+}
+
+.hero_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "container_receta_nacional_2     container_receta_nacional_2  vitel-tonel";
+}
+.hero_3 .vitel-thone {
+  background-color: #281d19;
+  width: 100%;
+}
+.hero_3 .vitel-thone-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.hero_3 .vitel-thone-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.hero_3 .vitel-thone-text-1 {
+  color: white;
+  padding: 10rem 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+.hero_3 .container_receta_nacional_2 .receta_4_title {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  border-bottom: 1px solid white;
+  padding: 1rem 0.5rem;
+}
+.hero_3 .container_receta_nacional_2 ul {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  padding: 1rem 0.5rem;
+}
+.hero_3 .container_receta_nacional_2 ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.hero_3 .container_receta_nacional_2 .receta_4_title_2,
+.hero_3 .receta_4_title_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+  padding: 0.5rem 0.5rem;
+}
+.hero_3 .container_receta_nacional_2 {
+  grid-area: container_receta_nacional_2;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  background-color: #281d19;
+  color: white;
+}
+.hero_3 .descripcion-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 1.8rem;
+  padding: 5rem 5rem;
+}
+
+/* Comienzo de la pagina de postres */
+.container-5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #281d19;
+  font-family: "Lora", serif;
+}
+
+.creme-brulee {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.preparacion {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: center;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 15px;
+  font-style: italic;
+}
+
+.preparacion-titulo {
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+.item-preparacion {
+  list-style-type: none;
+  color: white;
+}
+
+.preparacion-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: center;
+}
+
+.preparacion-titulo-2 {
+  text-decoration: underline;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.text-preparacion {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 1.5rem;
+}
+
+.container-6 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #281d19;
+  font-family: "Lora", serif;
+  color: white;
+}
+
+.historia {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 10rem;
+}
+
+.p-historia {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.p-historia-1 {
+  margin-top: 4rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.p-historia-2 {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.brownie-2 {
+  max-width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.indice {
+  justify-self: flex-start;
+  align-self: center;
+  margin-left: 11.5rem;
+  opacity: 0.9;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.titulo-indice {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.item-indice {
+  padding: 1rem;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.receta {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding: 1rem;
+}
+
+.receta-2 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  padding: 1rem;
+}
+
+.titulo-receta, .titulo-receta-1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.text-receta, .text-receta-1 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Fin de la pagina de postre */
+/* comienzo de la pagina de contacto*/
+body {
+  background-color: #f6f3e2;
+}
+
+.container-1 {
+  background-image: url("../img/gente_comiendo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 8rem;
+  color: black;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-style: italic;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  opacity: 0.8;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.parrafo {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-style: italic;
+  opacity: 0.8;
+  background-color: #ccc;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "form img";
+}
+
+.img {
+  grid-area: img;
+}
+
+.img-2 {
+  max-width: 100%;
+}
+
+.parrafo-2 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.form {
+  grid-template-areas: form;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-text {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #281d19;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gray;
+}
+
+/* Fin de la pagina de contacto */
+.linkedin a {
+  font-size: 2000x;
+  color: transparent;
+}
+
+footer {
+  background-color: #cbc3be;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* Comienzo de mi desarrollo responsive */
+@media screen and (max-width: 1395px) {
+  .header {
+    flex-direction: column;
+  }
+  .pie_de_pagina_right {
+    justify-content: center;
+    align-items: center;
+  }
+  .pie_de_pagina_left {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "empanada                    empanada    empanada" "container_receta_nacional  container_receta_nacional  container_receta_nacional" "empanada2 empanada2 empanada2";
+  }
+  .container-2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "form" "img";
+  }
+  .form {
+    grid-area: form;
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .parrafo-2 {
+    margin: 40px;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+  }
+  /* Pagina comida internacional */
+  .container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .image {
+    max-width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  .recipe {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    font-family: "Lato", sans-serif;
+    padding: 1.5rem 1rem;
+    background-color: #281d19;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .recipe-2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: "Lato", sans-serif;
+    background-color: #281d19;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .item-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-style: italic;
+    gap: 1rem;
+  }
+  .bio-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+  .bio-text-2 {
+    font-size: 2.5rem;
+  }
+  .p-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+  .container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .beicon {
+    display: flex;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .recipe-3 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .recipe-4 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .p-text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 2rem;
+  }
+  .p-text-2 {
+    padding: 2rem;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+  /* Fin de pagina internacional */
+  /* Comienzo de pagina de postre */
+  .container-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+  }
+  .creme-brulee {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .preparacion {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+    margin-left: 4.8rem;
+    padding: 1rem;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 15px;
+    font-style: italic;
+  }
+  .preparacion-titulo {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+  }
+  .item-preparacion {
+    list-style-type: none;
+    color: white;
+  }
+  .preparacion-2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+  }
+  .preparacion-titulo-2 {
+    text-decoration: underline;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  .text-preparacion {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .p-historia {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .p-historia-1 {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .p-historia-2 {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .indice {
+    justify-self: flex-start;
+    align-self: center;
+    margin-left: 8rem;
+    opacity: 0.9;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  /* Fin de pagina de postre */
+  footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+  }
+  .creme-brulee {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .preparacion {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 15px;
+    font-style: italic;
+  }
+  .preparacion-titulo {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+  }
+  .item-preparacion {
+    list-style-type: none;
+    color: white;
+  }
+  .preparacion-2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+  }
+  .preparacion-titulo-2 {
+    text-decoration: underline;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  .text-preparacion {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .container-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+    color: white;
+  }
+  .historia {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  .brownie-2 {
+    max-width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .indice {
+    justify-self: center;
+    align-self: center;
+    opacity: 0.9;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .titulo-indice {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+  .item-indice {
+    padding: 1rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+  }
+  .receta {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding: 1rem;
+  }
+  .receta-2 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    padding: 1rem;
+  }
+  .titulo-receta, .titulo-receta-1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .text-receta, .text-receta-1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+  .personas {
+    grid-column: 2/10;
+    grid-row: 2/3;
+  }
+  .mensaje {
+    grid-column: 2/10;
+    grid-row: 3/5;
+  }
+}
+@media screen and (max-width: 760px) {
+  .header {
+    flex-direction: column;
+  }
+  .biografia-container {
+    flex-direction: column;
+  }
+  .biografia-2 {
+    border-top: 1px solid white;
+    border-left: none;
+  }
+  .galeria-container {
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 2rem 2rem;
+    gap: 2rem;
+  }
+  .pie_de_pagina_right {
+    justify-content: center;
+    align-items: center;
+  }
+  .pie_de_pagina_left {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+  .personas {
+    grid-column: 2/10;
+    grid-row: 2/3;
+  }
+  .mensaje {
+    grid-column: 2/10;
+    grid-row: 3/5;
+  }
+  .title {
+    font-size: 35px;
+    opacity: 0.8;
+    background-color: #ccc;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .parrafo {
+    font-size: 30px;
+    background-color: #ccc;
+    opacity: 0.8;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: italic;
+    padding: 1rem;
+  }
+  .hero_2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "empanada                    empanada                   empanada2" "container_receta_nacional  container_receta_nacional  container_receta_nacional";
+  }
+  .hero_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "vitel-tonel     vitel-tonel  vitel-tonel" "container_receta_nacional_2 container_receta_nacional_2 container_receta_nacional_2";
+  }
+  .img_text_2 {
+    background-color: #281d19;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .container-2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "form" "img";
+  }
+  .form {
+    grid-area: form;
+    max-width: 100%;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .parrafo-2 {
+    margin: 40px;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+  }
+  /* Pagina comida internacional */
+  .container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .image {
+    max-width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  .recipe {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    font-family: "Lato", sans-serif;
+    padding: 1.5rem 1rem;
+    background-color: #281d19;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .recipe-2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: "Lato", sans-serif;
+    background-color: #281d19;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .item-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    gap: 1rem;
+  }
+  .bio-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-decoration: underline;
+  }
+  .p-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+  }
+  .container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .beicon {
+    display: flex;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .recipe-3 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .recipe-4 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .p-text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 2rem;
+  }
+  .p-text-2 {
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+  }
+  /* Fin de pagina internacional */
+  /* Comienzo de pagina de postre */
+  .container-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+  }
+  .creme-brulee {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .preparacion {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 15px;
+    font-style: italic;
+  }
+  .preparacion-titulo {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+  }
+  .item-preparacion {
+    list-style-type: none;
+    color: white;
+  }
+  .preparacion-2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+  }
+  .preparacion-titulo-2 {
+    text-decoration: underline;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  .text-preparacion {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .container-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+    color: white;
+  }
+  .historia {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 0px;
+  }
+  .brownie-2 {
+    max-width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .indice {
+    justify-self: flex-start;
+    align-self: center;
+    margin: 1rem;
+    opacity: 0.9;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .receta {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding: 1rem;
+  }
+  .receta-2 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    padding: 1rem;
+  }
+  .titulo-receta, .titulo-receta-1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .text-receta, .text-receta-1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  /* Fin de pagina de postre */
+  footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header {
+    flex-direction: column;
+  }
+  .biografia-container {
+    flex-direction: column;
+  }
+  .biografia-2 {
+    border-top: 1px solid white;
+    border-left: none;
+  }
+  .galeria-container {
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 2rem 2rem;
+    gap: 2rem;
+  }
+  .pie_de_pagina_right {
+    justify-content: center;
+    align-items: center;
+  }
+  .pie_de_pagina_left {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-size: 35px;
+    opacity: 0.8;
+    background-color: #ccc;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .parrafo {
+    font-size: 35px;
+    background-color: #ccc;
+    opacity: 0.8;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: italic;
+    padding: 1rem;
+  }
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+  .personas {
+    grid-column: 2/10;
+    grid-row: 2/3;
+  }
+  .mensaje {
+    grid-column: 2/10;
+    grid-row: 3/5;
+    font-size: 1.2rem;
+  }
+  .container-2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "form" "img";
+  }
+  .img_text_1 {
+    background-color: #281d19;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+  }
+  .img_text_2 {
+    background-color: #281d19;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+  }
+  .descripcion-2 {
+    font-size: 1.6rem;
+  }
+  .parrafo-2 {
+    margin: 80px;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+  }
+  /* Pagina comida internacional */
+  .container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .image {
+    max-width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  .recipe {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    font-family: "Lato", sans-serif;
+    padding: 1.5rem 1rem;
+    background-color: #281d19;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .recipe-2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: "Lato", sans-serif;
+    background-color: #281d19;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .item-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    gap: 1rem;
+  }
+  .bio-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+  .p-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+  }
+  .container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .beicon {
+    display: flex;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .recipe-3 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .recipe-4 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .p-text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 2rem;
+  }
+  .p-text-2 {
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+  }
+  /* Fin de pagina internacional */
+  /* Comienzo de pagina postre */
+  .container-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+  }
+  .creme-brulee {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .preparacion {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: flex-start;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 3rem;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 15px;
+    font-style: italic;
+  }
+  .preparacion-2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+  }
+  .preparacion-titulo-2 {
+    text-decoration: underline;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+  }
+  .text-preparacion {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .container-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #281d19;
+    font-family: "Lora", serif;
+    color: white;
+  }
+  .historia {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 0;
+  }
+  .p-historia, .p-historia-1, .p-historia-2 {
+    font-size: 1.2rem;
+  }
+  .brownie-2 {
+    max-width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .indice {
+    justify-self: flex-start;
+    align-self: center;
+    margin: 0;
+    opacity: 0.8;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .receta {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding: 1rem;
+  }
+  .receta-2 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    padding: 1rem;
+  }
+  .titulo-receta, .titulo-receta-1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .text-receta, .text-receta-1 {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  /* Fin de pagina de postre */
+  footer {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

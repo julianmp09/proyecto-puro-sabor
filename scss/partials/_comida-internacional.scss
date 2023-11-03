@@ -1,0 +1,119 @@
+/* Inicio de pagina comida internacional */
+
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+  max-width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-right: 1px solid $color_white;
+  border-bottom: 1px solid $color_white;
+}
+
+.recipe {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-family: "Lato", sans-serif;
+  padding: 1.5rem 1rem;
+  background-color: $color_de_fondo;
+  color: $color_white;
+  border-bottom: 1px solid $color_white;
+}
+
+.bio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.p-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.recipe-2 {
+  grid-column: 2/3;
+  font-family: "Lato", sans-serif;
+  background-color: $color_de_fondo;
+  color: $color_white;
+  border-bottom: 1px solid $color_white;
+}
+
+.bio-text-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  border-bottom: 1px solid $color_white;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+  padding: 2.5rem;
+  font-size: 2rem;
+  font-style: italic;
+  gap: 1rem;
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "recipe-3 beicon"
+    "recipe-4 recipe-4";
+  background-color: $color_de_fondo;
+  color: $color_white;
+}
+
+.beicon {
+  grid-area: beicon;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.recipe-3 {
+  grid-area: recipe-3;
+}
+
+.p-text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  padding: 2rem;
+}
+
+.recipe-4 {
+  grid-area: recipe-4;
+}
+
+.p-text-2 {
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.info {
+  text-decoration: none;
+  color: $color_white;
+}
+
+/* Fin de pagina comida internacional */

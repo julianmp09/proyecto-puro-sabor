@@ -1,0 +1,187 @@
+/* Comienzo de pagina comida nacional */
+.hero_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "empanada                    empanada2     container_receta_nacional";
+  
+    .empanada {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      grid-area: empanada;
+    }
+    
+    .empanada_2 {
+      grid-area: empanada2;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+    
+    .empanada_3 {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      grid-area: empanada2;
+    }
+    
+    .img_1 {
+      background-color: $color_de_fondo;
+    }
+    
+    .img_text_1 {
+      color: $color_white;
+      padding-top: 10rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .img_text_2 {
+      background-color: $color_de_fondo;
+      color: $color_white;
+      padding: 3.5rem;
+      text-align: center;
+      height: 100%;
+      font-size: 1.5rem;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .container_receta_nacional .receta_3_title {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      font-family: "Lato", sans-serif;
+      border-bottom: 1px solid $color_white;
+      padding: 1rem 0.5rem;
+    }
+    
+    .container_receta_nacional ul {
+      list-style-type: none;
+      font-family: "Lato", sans-serif;
+      padding: 1rem 0.5rem;
+    }
+    
+    .container_receta_nacional ul li {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-style: italic;
+    }
+    
+    .container_receta_nacional .receta_3_title_2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: underline;
+      font-family: "Lato", sans-serif;
+      padding: 0.5rem 0.5rem;
+    }
+    
+    .descripcion {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: "Lora", serif;
+      font-size: 1.4rem;
+      padding: 1.5rem 1rem;
+    }
+    
+    .container_receta_nacional {
+      grid-area: container_receta_nacional;
+      font-family: "Lora", serif;
+      font-style: italic;
+      font-size: 20px;
+      background-color: $color_de_fondo;
+      color: $color_white;
+    }
+  }
+  
+  
+  
+  
+  .hero_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "container_receta_nacional_2     container_receta_nacional_2  vitel-tonel";
+  
+    .vitel-thone {
+      background-color: $color_de_fondo;
+      width: 100%;
+    }
+    
+    .vitel-thone-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+    
+    .vitel-thone-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+    
+    .vitel-thone-text-1 {
+      color: $color_white;
+      padding: 10rem 5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .container_receta_nacional_2 .receta_4_title {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Lato", sans-serif;
+      border-bottom: 1px solid $color_white;
+      padding: 1rem 0.5rem;
+    }
+    
+    .container_receta_nacional_2 ul {
+      list-style-type: none;
+      font-family: "Lato", sans-serif;
+      padding: 1rem 0.5rem;
+    }
+    
+    .container_receta_nacional_2 ul li {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+    }
+    
+    .container_receta_nacional_2 .receta_4_title_2,
+    .receta_4_title_3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Lato", sans-serif;
+      text-decoration: underline;
+      padding: 0.5rem 0.5rem;
+    }
+    
+    .container_receta_nacional_2 {
+      grid-area: container_receta_nacional_2;
+      font-family: "Lora", serif;
+      font-style: italic;
+      font-size: 1.5rem;
+      background-color: $color_de_fondo;
+      color: $color_white;
+    }
+    
+    .descripcion-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: "Lora", serif;
+      font-size: 1.8rem;
+      padding: 5rem 5rem;
+    }
+  }
