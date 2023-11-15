@@ -8,6 +8,7 @@
     .empanada {
       width: 100%;
       aspect-ratio: 1 / 1;
+      object-fit: cover;
       grid-area: empanada;
     }
     
@@ -15,11 +16,13 @@
       grid-area: empanada2;
       width: 100%;
       aspect-ratio: 1 / 1;
+      object-fit: cover;
     }
     
     .empanada_3 {
       width: 100%;
       aspect-ratio: 1 / 1;
+      object-fit: cover;
       grid-area: empanada2;
     }
     
